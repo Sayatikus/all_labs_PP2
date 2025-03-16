@@ -82,9 +82,9 @@ def imdvpoint(movies,name):
         if movie["name"] in name:
             sum+=movie["imdb"]
             cnt+=1
-    return sum/cnt
+    return sum/cnt 
 name=[]
-while name1!="done":
+while name1 != "done":
     
     name1=input("name movie:")
     if name1 == 'done':
